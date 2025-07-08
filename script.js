@@ -396,14 +396,7 @@ function updateCurrentTestimonial() {
             "${testimonial.text}"
         </blockquote>
         
-        <div class="testimonial-author">
-            <img src="${testimonial.image}" alt="${testimonial.name}" class="testimonial-avatar">
-            <div class="testimonial-info">
-                <div class="testimonial-name">${testimonial.name}</div>
-                <div class="testimonial-role">${testimonial.role}</div>
-                <div class="testimonial-company">${testimonial.company}</div>
-            </div>
-        </div>
+       
     `;
 }
 
